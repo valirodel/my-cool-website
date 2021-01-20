@@ -1,0 +1,71 @@
+@media only screen and (max-width: 500px) {
+  .hero {font-size: 4.5rem;}
+
+  #road-last {display: none;}
+  .road {width: 40%;}
+
+  .journey .container {margin-bottom: 4rem;}
+  .timeline {
+    -webkit-transform-origin: bottom center; 
+    -webkit-transform: rotate(90deg) translateX(-50%);
+  }
+
+  .timeline-wrap {width: 90%;}
+
+  .sign {
+    border-bottom: 1px solid $textcolor;
+    -webkit-transform: rotate(-90deg) translateY(-30%) translateX(-68%) scale(0.6);
+    .info {
+      width: 80%;
+      -webkit-transform: translateX(-200%);
+    }
+
+    .script {-webkit-transform: translateX(-10%);}
+  }
+
+  .navbar {height: 250px;}
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+    li {margin-bottom: 0.3rem; margin-right: 2rem;}
+  }
+}
+
+@media only screen and (min-width: 501px){
+
+  .what-wrap {
+    height: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {width: 65%;}
+
+  .project-wrap {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .who .s-left .copy {
+    margin: 1rem 0;
+  }
+
+  .navbar {flex-direction: column; justify-content: center;}
+  .menu {order: 2; justify-content: center; margin-bottom: 1rem;}
+  .social-wrap {order: 1; justify-content: center;}
+}
+
+@media only screen and (min-width: 768px){
+  .background {
+    max-width: 1200px;
+    border-right: 1px solid darken($basecolor, 15%);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title {
+    position: relative;
+    left: -70px;
+  }
+}

@@ -1,0 +1,162 @@
+$herocolor: #FFD32E;
+$thirdcolor: #9B2D5E;
+$fourthcolor: #7B3FBF;
+$basecolor: #F2F2F2;
+$textcolor: #050454;
+$textcolor2: #5E6E9D;
+$copycolor: #161624;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, strong {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+
+h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: $textcolor;
+}
+
+p, li, span, label, input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+  color: $copycolor;
+}
+
+a {
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  font-weight: 400;
+  color: $textcolor;
+  cursor: pointer;
+
+  &:hover {text-decoration: underline; font-weight: 700;}
+}
+
+strong {font-size: 2rem; color: $textcolor;}
+em {font-weight: 600;}
+
+ul {list-style: none;}
+
+hr {margin: 10px auto;}
+br {height: 2rem;}
+
+
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.text-center {text-align: center;}
+
+.eng {font-style: italic; color: $textcolor2;}
+
+.heading-right {text-align: right; z-index: 3;}
+
+.heading-left {text-align: left; z-index: 3;}
+
+.script {
+  font-family: 'Nothing You Could Do', cursive;
+  color: $textcolor2;
+}
+
+.outline-light {
+  color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: $textcolor2;
+}
+
+.outline-dark {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $textcolor;
+}
+
+
+
+/*text sizes*/
+h1 {font-size: 3rem;}
+h2 {font-size: 2.5rem;}
+h3 {font-size: 2rem;}
+h4 {font-size: 1.5rem;}
+h5 {font-size: 1.2rem;}
+h6 {font-size: .8rem;}
+
+.hero {font-size: 5rem;}
+.xs {font-size: .8rem;}
+.sm {font-size: 0.9rem;}
+.md {font-size: 2rem;}
+.lg {font-size: 2.5rem;}
+.xl {font-size: 4rem;}
+
+/*margins*/
+.my-1 {margin: 1rem 0;}
+.my-2 {margin: 1.5rem 0;}
+.my-3 {margin: 2rem 0;}
+.my-4 {margin: 3rem 0;}
+.my-5 {margin: 4rem 0;}
+
+.m-1 {margin: 1rem;}
+.m-2 {margin: 1.5rem;}
+.m-3 {margin: 2rem;}
+.m-4 {margin: 3rem;}
+.m-5 {margin: 4rem;}
+
+/*paddings*/
+.py-1 {padding: 1rem 0;}
+.py-2 {padding: 1.5rem 0;}
+.py-3 {padding: 2rem 0;}
+.py-4 {padding: 3rem 0;}
+.py-5 {padding: 4rem 0;}
+
+.p-1 {padding: 1rem;}
+.p-2 {padding: 1.5rem;}
+.p-3 {padding: 2rem;}
+.p-4 {padding: 3rem;}
+.p-5 {padding: 4rem;}
+
+/*buttons*/
+.btn {
+  transition: background-color 0.4s ease;
+  cursor: pointer;
+
+  a {width: 80%; line-height: 1.6;}
+  &:hover a {font-weight: 700; text-decoration: underline;}
+}
+
+.btn-1 {
+  background-color: transparent;
+  border: 1.5px solid $fourthcolor;
+
+  a {color: $fourthcolor;}
+  &:hover {background-color: $fourthcolor;}
+  &:hover a {color: $basecolor;}
+}
+
+.btn-2 {
+  background-color: transparent;
+  border: 1.5px solid $textcolor;
+
+  a {color: $textcolor;}
+  &:hover {background-color: $textcolor;}
+  &:hover a {color: $basecolor;}
+}
+
+.btn-3 {
+  background-color: $fourthcolor;
+
+  a {color: $basecolor;}
+  &:hover {background-color: transparent; border: 1.5px solid $fourthcolor;}
+  &:hover a {color: $fourthcolor;}
+}

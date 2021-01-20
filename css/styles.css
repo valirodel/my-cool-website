@@ -1,0 +1,1081 @@
+/* line 10, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+/* line 17, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+h1, h2, h3, h4, strong {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  line-height: 1.2em; }
+
+/* line 23, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #050454; }
+
+/* line 30, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+p, li, span, label, input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+  color: #161624; }
+
+/* line 36, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+a {
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  font-weight: 400;
+  color: #050454;
+  cursor: pointer; }
+  /* line 43, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  a:hover {
+    text-decoration: underline;
+    font-weight: 700; }
+
+/* line 46, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+strong {
+  font-size: 2rem;
+  color: #050454; }
+
+/* line 47, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+em {
+  font-weight: 600; }
+
+/* line 49, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+ul {
+  list-style: none; }
+
+/* line 51, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+hr {
+  margin: 10px auto; }
+
+/* line 52, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+br {
+  height: 2rem; }
+
+/* line 56, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.flex {
+  display: flex;
+  align-items: center; }
+
+/* line 61, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.text-center {
+  text-align: center; }
+
+/* line 63, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.eng {
+  font-style: italic;
+  color: #5E6E9D; }
+
+/* line 65, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.heading-right {
+  text-align: right;
+  z-index: 3; }
+
+/* line 67, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.heading-left {
+  text-align: left;
+  z-index: 3; }
+
+/* line 69, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.script {
+  font-family: 'Nothing You Could Do', cursive;
+  color: #5E6E9D; }
+
+/* line 74, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.outline-light {
+  color: transparent;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: #5E6E9D; }
+
+/* line 80, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.outline-dark {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #050454; }
+
+/*text sizes*/
+/* line 89, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+h1 {
+  font-size: 3rem; }
+
+/* line 90, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+h2 {
+  font-size: 2.5rem; }
+
+/* line 91, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+h3 {
+  font-size: 2rem; }
+
+/* line 92, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+h4 {
+  font-size: 1.5rem; }
+
+/* line 93, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+h5 {
+  font-size: 1.2rem; }
+
+/* line 94, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+h6 {
+  font-size: .8rem; }
+
+/* line 96, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.hero {
+  font-size: 5rem; }
+
+/* line 97, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.xs {
+  font-size: .8rem; }
+
+/* line 98, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.sm {
+  font-size: 0.9rem; }
+
+/* line 99, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.md {
+  font-size: 2rem; }
+
+/* line 100, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.lg {
+  font-size: 2.5rem; }
+
+/* line 101, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.xl {
+  font-size: 4rem; }
+
+/*margins*/
+/* line 104, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.my-1 {
+  margin: 1rem 0; }
+
+/* line 105, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.my-2 {
+  margin: 1.5rem 0; }
+
+/* line 106, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.my-3 {
+  margin: 2rem 0; }
+
+/* line 107, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.my-4 {
+  margin: 3rem 0; }
+
+/* line 108, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.my-5 {
+  margin: 4rem 0; }
+
+/* line 110, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.m-1 {
+  margin: 1rem; }
+
+/* line 111, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.m-2 {
+  margin: 1.5rem; }
+
+/* line 112, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.m-3 {
+  margin: 2rem; }
+
+/* line 113, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.m-4 {
+  margin: 3rem; }
+
+/* line 114, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.m-5 {
+  margin: 4rem; }
+
+/*paddings*/
+/* line 117, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.py-1 {
+  padding: 1rem 0; }
+
+/* line 118, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.py-2 {
+  padding: 1.5rem 0; }
+
+/* line 119, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.py-3 {
+  padding: 2rem 0; }
+
+/* line 120, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.py-4 {
+  padding: 3rem 0; }
+
+/* line 121, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.py-5 {
+  padding: 4rem 0; }
+
+/* line 123, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.p-1 {
+  padding: 1rem; }
+
+/* line 124, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.p-2 {
+  padding: 1.5rem; }
+
+/* line 125, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.p-3 {
+  padding: 2rem; }
+
+/* line 126, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.p-4 {
+  padding: 3rem; }
+
+/* line 127, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.p-5 {
+  padding: 4rem; }
+
+/*buttons*/
+/* line 130, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.btn {
+  transition: background-color 0.4s ease;
+  cursor: pointer; }
+  /* line 134, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn a {
+    width: 80%;
+    line-height: 1.6; }
+  /* line 135, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn:hover a {
+    font-weight: 700;
+    text-decoration: underline; }
+
+/* line 138, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.btn-1 {
+  background-color: transparent;
+  border: 1.5px solid #7B3FBF; }
+  /* line 142, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-1 a {
+    color: #7B3FBF; }
+  /* line 143, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-1:hover {
+    background-color: #7B3FBF; }
+  /* line 144, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-1:hover a {
+    color: #F2F2F2; }
+
+/* line 147, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.btn-2 {
+  background-color: transparent;
+  border: 1.5px solid #050454; }
+  /* line 151, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-2 a {
+    color: #050454; }
+  /* line 152, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-2:hover {
+    background-color: #050454; }
+  /* line 153, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-2:hover a {
+    color: #F2F2F2; }
+
+/* line 156, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+.btn-3 {
+  background-color: #7B3FBF; }
+  /* line 159, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-3 a {
+    color: #F2F2F2; }
+  /* line 160, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-3:hover {
+    background-color: transparent;
+    border: 1.5px solid #7B3FBF; }
+  /* line 161, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_utilities.scss */
+  .btn-3:hover a {
+    color: #7B3FBF; }
+
+@media only screen and (max-width: 500px) {
+  /* line 2, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .hero {
+    font-size: 4.5rem; }
+  /* line 4, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  #road-last {
+    display: none; }
+  /* line 5, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .road {
+    width: 40%; }
+  /* line 7, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .journey .container {
+    margin-bottom: 4rem; }
+  /* line 8, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .timeline {
+    -webkit-transform-origin: bottom center;
+    -webkit-transform: rotate(90deg) translateX(-50%); }
+  /* line 13, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .timeline-wrap {
+    width: 90%; }
+  /* line 15, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .sign {
+    border-bottom: 1px solid #050454;
+    -webkit-transform: rotate(-90deg) translateY(-30%) translateX(-68%) scale(0.6); }
+    /* line 18, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+    .sign .info {
+      width: 80%;
+      -webkit-transform: translateX(-200%); }
+    /* line 23, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+    .sign .script {
+      -webkit-transform: translateX(-10%); }
+  /* line 26, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .navbar {
+    height: 250px; }
+  /* line 27, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .menu {
+    flex-direction: column;
+    justify-content: center; }
+    /* line 30, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+    .menu li {
+      margin-bottom: 0.3rem;
+      margin-right: 2rem; } }
+
+@media only screen and (min-width: 501px) {
+  /* line 36, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .what-wrap {
+    height: 100%; } }
+
+@media only screen and (max-width: 768px) {
+  /* line 43, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .hero {
+    width: 65%; }
+  /* line 45, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .project-wrap {
+    width: 100%;
+    flex-wrap: wrap; }
+  /* line 50, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .who .s-left .copy {
+    margin: 1rem 0; }
+  /* line 54, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .navbar {
+    flex-direction: column;
+    justify-content: center; }
+  /* line 55, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .menu {
+    order: 2;
+    justify-content: center;
+    margin-bottom: 1rem; }
+  /* line 56, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .social-wrap {
+    order: 1;
+    justify-content: center; } }
+
+@media only screen and (min-width: 768px) {
+  /* line 60, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .background {
+    max-width: 1200px;
+    border-right: 1px solid #cccccc; } }
+
+@media only screen and (min-width: 1000px) {
+  /* line 67, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_media.scss */
+  .title {
+    position: relative;
+    left: -70px; } }
+
+/* line 5, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+body {
+  background-color: #F2F2F2; }
+
+/* line 9, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.background-wrap {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%; }
+
+/* line 16, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.background {
+  position: absolute;
+  left: 7.5%;
+  width: 85%;
+  height: 100%;
+  border-left: 1px solid #cccccc; }
+
+/* line 25, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.background-circle {
+  width: 1500px;
+  height: 1500px;
+  position: absolute;
+  top: -930px;
+  left: -120px;
+  z-index: -1;
+  background-color: transparent;
+  border: 1px solid #cccccc;
+  border-radius: 50%; }
+
+/*Header*/
+/* line 38, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+header {
+  width: 100%;
+  border-bottom: 1px solid #cccccc; }
+
+/* line 43, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.header-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between; }
+  /* line 49, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .header-container .btn-2 {
+    border-radius: 57% 43% 62% 38% / 40% 47% 53% 60%;
+    padding: 0.8rem 1rem; }
+
+/* line 55, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.logo-copy {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: #050454; }
+
+/*Main*/
+/* line 63, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.content {
+  width: 100%;
+  overflow: hidden; }
+
+/* line 68, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.container {
+  width: 70%;
+  max-width: 900px;
+  min-width: 200px;
+  margin: 0 auto; }
+
+/* line 74, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.copy {
+  width: 50%;
+  min-width: 300px; }
+
+/* line 76, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.s-left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 70%;
+  max-width: 900px;
+  min-width: 200px;
+  margin: 0 auto; }
+
+/* line 85, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.s-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 70%;
+  max-width: 900px;
+  min-width: 200px;
+  margin: 0 auto; }
+
+/* line 94, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.s-wide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+  border-top: 1px solid #050454;
+  border-bottom: 1px solid #050454; }
+
+/* line 102, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #cccccc;
+  border-radius: 2px; }
+
+/*Title*/
+/* line 110, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.title {
+  position: relative;
+  color: #F2F2F2;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #5E6E9D;
+  text-wrap: wrap; }
+
+/* line 120, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.title-front {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  color: #050454;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #F2F2F2; }
+
+/*Bio*/
+/* line 131, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.who .s-left .square-photo {
+  margin-right: 1.5rem; }
+
+/* line 133, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.square-photo {
+  position: relative;
+  justify-content: center;
+  border-radius: 2px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #cccccc; }
+  /* line 140, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .square-photo img {
+    width: 90%;
+    height: 90%;
+    border-radius: 2px; }
+
+/* line 143, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.place {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: -50px;
+  left: -40px; }
+
+/* line 145, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.copy .btn-2 {
+  margin-right: 1rem;
+  border-radius: 30% 70% 70% 30% / 30% 51% 49% 70%; }
+
+/* line 151, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.copy .btn-1 {
+  border-radius: 30% 70% 34% 66% / 55% 28% 72% 45%; }
+
+/*Design Timeline*/
+/*Design Timeline*/
+/* line 2, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.journey {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 650px; }
+
+/* line 8, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.scheme {
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%; }
+
+/* line 14, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.timeline {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 20px;
+  background-color: transparent;
+  border-top: 1px solid #050454;
+  border-bottom: 1px solid #050454; }
+  /* line 24, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .timeline-wrap {
+    width: 70%;
+    max-width: 1000px;
+    justify-content: center;
+    position: relative;
+    height: 100%; }
+
+/* line 34, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop {
+  cursor: pointer;
+  position: relative;
+  justify-content: center;
+  width: 20%;
+  height: 100%; }
+  /* line 42, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop:hover .dot {
+    z-index: 101;
+    opacity: 1; }
+
+/* line 46, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.road-wrap {
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  /*transition: all 0.4s ease;*/ }
+
+/* line 58, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.dot {
+  position: absolute;
+  z-index: 3;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #050454;
+  background-color: #F2F2F2; }
+
+/* line 68, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.road {
+  position: relative;
+  z-index: 2;
+  opacity: 0.5;
+  width: 15%;
+  height: 1%;
+  background-color: #050454; }
+
+/* line 77, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.sign {
+  position: absolute;
+  top: -500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 500px;
+  min-width: 250px;
+  opacity: 0; }
+
+/* line 90, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.sign .frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  border-radius: 2px;
+  background-color: #050454; }
+  /* line 96, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .sign .frame h4 {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: #F2F2F2;
+    border: 1px solid #F2F2F2; }
+
+/* line 103, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.info {
+  position: absolute;
+  left: 55%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  padding-bottom: 1rem; }
+
+/* line 112, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.sign .script {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 60%;
+  opacity: 0.3;
+  color: #5E6E9D;
+  padding-right: 2rem;
+  font-size: 5rem;
+  line-height: 1.2;
+  /*font-weight: 600;*/ }
+
+/* line 122, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.line {
+  width: 4px;
+  height: 250px;
+  border-left: 1px solid #5E6E9D;
+  border-right: 1px solid #5E6E9D; }
+
+/* line 124, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.svg-sign {
+  position: absolute; }
+
+/* line 130, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop:hover .sign {
+  z-index: 100;
+  opacity: 1;
+  transition: all 0.2s ease; }
+
+/* line 136, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop:hover .dot {
+  -webkit-transform: scale(2.5);
+  background-color: #050454; }
+
+/* line 142, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-1 .sign {
+  background: url("../images/texture-1.svg") bottom center no-repeat; }
+  /* line 144, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-1 .sign .line {
+    height: 200px; }
+
+/* line 147, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-1 .sign .svg-sign {
+  top: 305px;
+  width: 60px; }
+
+/* line 154, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-2 .sign {
+  background: url("../images/texture-2.svg") bottom center no-repeat; }
+
+/* line 158, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-2 .sign .svg-sign {
+  top: 340px;
+  left: 0;
+  width: 60px; }
+  /* line 161, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-2 .sign .svg-sign:first-of-type {
+    top: 270px; }
+  /* line 162, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-2 .sign .svg-sign:last-of-type {
+    top: 410px; }
+
+/* line 167, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-3 .sign {
+  background: url("../images/texture-3.svg") bottom center no-repeat; }
+  /* line 169, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-3 .sign .line {
+    height: 220px; }
+
+/* line 172, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-3 .sign .svg-sign {
+  width: 180px;
+  top: 350px;
+  left: -57px; }
+  /* line 175, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-3 .sign .svg-sign:first-of-type {
+    top: 300px; }
+  /* line 176, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-3 .sign .svg-sign:last-of-type {
+    top: 400px; }
+
+/* line 181, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-4 .sign {
+  background: url("../images/texture-4.svg") bottom center no-repeat; }
+  /* line 183, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-4 .sign .line {
+    height: 280px; }
+  /* line 185, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-4 .sign .frame h4 {
+    color: #050454;
+    border-color: #050454; }
+
+/* line 193, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+#ellipse {
+  background-color: rgba(242, 242, 242, 0.9);
+  border-radius: 50%;
+  border: 2px solid rgba(5, 4, 84, 0.5); }
+
+/* line 196, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-5 .sign {
+  background: url("../images/texture-5.svg") bottom center no-repeat; }
+  /* line 198, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+  .stop-5 .sign .frame {
+    background-color: #FFD32E; }
+    /* line 200, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+    .stop-5 .sign .frame h4 {
+      color: #050454;
+      border: 3px dashed #050454; }
+
+/* line 207, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/_timeline.scss */
+.stop-5 .sign .svg-sign {
+  top: 260px;
+  width: 60px; }
+
+/*What I do*/
+/* line 161, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.skills .btn-3 {
+  position: relative;
+  bottom: 25px;
+  left: 100px;
+  z-index: 1;
+  width: 200px;
+  height: 100px;
+  border-radius: 78% 22% 49% 51% / 66% 70% 30% 34%; }
+  /* line 170, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .skills .btn-3 a {
+    text-align: right; }
+
+/* line 173, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.what-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
+  height: 100%; }
+
+/* line 179, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.skills {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end; }
+  /* line 185, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .skills > h2 {
+    padding-top: 2rem; }
+  /* line 187, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .skills > ul {
+    margin-left: 4rem; }
+
+/* line 190, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.skills li {
+  width: 230px;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  border: 1.2px solid #cccccc;
+  border-radius: 2px;
+  box-shadow: -10px 10px 0 rgba(5, 4, 84, 0.3); }
+
+/* line 200, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.what {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start; }
+  /* line 206, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .what > h2 {
+    padding-bottom: 2rem; }
+  /* line 208, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .what .square-photo {
+    margin-right: 4rem;
+    box-shadow: 10px 10px 0 #FFD32E; }
+
+/*What more*/
+/* line 216, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.whatmore .heading-right {
+  color: #5E6E9D; }
+
+/* line 218, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.whatmore .s-wide .container {
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative; }
+
+/* line 220, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.whatmore .s-wide h4 {
+  position: absolute;
+  left: -28%;
+  width: 50%;
+  color: rgba(94, 110, 157, 0.5);
+  font-size: 1.2rem; }
+
+/* line 222, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.square-photo-s {
+  position: relative;
+  margin: 1rem 0.8rem;
+  cursor: pointer;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 2px;
+  border: 1px solid #cccccc; }
+  /* line 233, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .square-photo-s img {
+    width: 90%;
+    height: 90%;
+    border-radius: 2px; }
+  /* line 239, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .square-photo-s:hover img {
+    -webkit-transform: scale(1.2); }
+  /* line 240, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .square-photo-s:hover .hover-title {
+    opacity: 100;
+    z-index: 5; }
+
+/* line 244, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.hover-title {
+  justify-content: center;
+  position: absolute;
+  opacity: 0;
+  color: rgba(242, 242, 242, 0.7); }
+
+/* line 251, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.like {
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+/* line 256, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.like-icon {
+  width: 20%;
+  height: auto;
+  max-width: 100px;
+  min-width: 80px;
+  text-align: center; }
+  /* line 259, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .like-icon img {
+    width: 80%;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    padding: 0.5rem; }
+
+/*Discover*/
+/* line 270, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.row {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap; }
+
+/* line 276, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.proj-sx {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1100px;
+  min-width: 200px;
+  margin: 2rem auto; }
+  /* line 284, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .proj-sx .row {
+    justify-content: flex-start; }
+
+/* line 287, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.proj-dx {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 80%;
+  max-width: 1100px;
+  min-width: 200px;
+  margin: 2rem auto; }
+  /* line 295, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .proj-dx .row {
+    justify-content: flex-end; }
+
+/* line 298, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.cover {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  position: relative; }
+  /* line 302, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .cover h4 {
+    position: absolute;
+    left: -75px;
+    -webkit-transform-origin: bottom left;
+    -webkit-transform: rotate(-90deg) translateY(80px) translateX(-90px);
+    color: #050454; }
+  /* line 303, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .cover h6 {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    color: #9da7c4;
+    font-weight: 800; }
+
+/* line 306, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.square-proj-img {
+  cursor: pointer;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 2px;
+  margin-left: 10px;
+  margin-right: 10px; }
+  /* line 315, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .square-proj-img img {
+    width: 90%;
+    height: 90%;
+    border-radius: 2px;
+    object-fit: cover; }
+
+/* line 322, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.square-proj-copy {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #cccccc;
+  border-radius: 2px; }
+  /* line 327, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .square-proj-copy p {
+    padding-bottom: 0.8rem; }
+  /* line 328, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .square-proj-copy a {
+    align-self: flex-end; }
+
+/* line 331, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.dark {
+  filter: grayscale(100%) brightness(0.3); }
+  /* line 333, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .dark:hover, .dark:active {
+    filter: grayscale(0);
+    transition: filter 1s ease; }
+
+/*Email*/
+/* line 338, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+#askme {
+  background-color: rgba(255, 211, 46, 0.3); }
+
+/* line 342, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.askme-wrap {
+  width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+  /*border: 1px solid darken($basecolor, 15%);*/
+  border-radius: 2px; }
+  /* line 348, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .askme-wrap .social-wrap {
+    justify-content: center; }
+
+/* line 351, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.btn-mail {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border: 1px solid #050454;
+  border-radius: 50%; }
+  /* line 356, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .btn-mail img {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%; }
+  /* line 357, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .btn-mail:hover img {
+    -webkit-transform: scale(1.8);
+    transition: transform 0.4s ease; }
+
+/* line 363, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.void {
+  width: 100%;
+  height: 200px; }
+
+/*Footer*/
+/* line 367, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.navbar-wrap {
+  background-color: #F2F2F2;
+  border-top: 1px solid #050454;
+  position: fixed;
+  z-index: 101;
+  bottom: 0;
+  right: 0;
+  width: 100%; }
+
+/* line 379, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.navbar {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: space-between; }
+
+/* line 385, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.social-wrap {
+  justify-content: flex-start; }
+
+/* line 389, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.social {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem; }
+  /* line 394, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .social:last-of-type {
+    margin-right: 0; }
+  /* line 395, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .social img {
+    border-radius: 2px; }
+  /* line 397, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .social:hover {
+    -webkit-transform: translateY(-20%);
+    transition: transform 0.4s ease; }
+
+/* line 400, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.menu-wrap {
+  justify-content: flex-end; }
+
+/* line 404, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+.menu {
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  /* line 408, ../../../Documents/_DOCUMENTI/_3_START2IMPACT/HTML/my-cool-side/scss/styles.scss */
+  .menu li {
+    margin-left: 2rem; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,211 @@
+/*Design Timeline*/
+.journey {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%; height: 650px;
+}
+
+.scheme {
+  justify-content: center; align-items: flex-end;
+
+  width: 100%; height: 100%;
+}
+
+.timeline {
+  position: relative;
+  justify-content: center;
+
+  width: 100%; height: 20px;
+
+  background-color: transparent;
+  border-top: 1px solid $textcolor;
+  border-bottom: 1px solid $textcolor;
+
+  &-wrap {
+    width: 70%; max-width: 1000px;
+
+    justify-content: center;
+
+    position: relative;
+    height: 100%;
+  }
+}
+
+.stop {
+  cursor: pointer;
+  position: relative;
+  justify-content: center;
+
+  width: 20%; height: 100%;
+
+  &:hover {
+    .dot {z-index: 101; opacity: 1;}
+  }
+}
+
+.road-wrap {
+  position: relative;
+
+  justify-content: space-around; align-items: center;
+
+  width: 100%; height: 100%;
+  background-color: transparent;
+
+  cursor: pointer;
+  /*transition: all 0.4s ease;*/
+}
+
+.dot {
+  position: absolute;
+  z-index: 3;
+
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  border: 2px solid $textcolor;
+  background-color: $basecolor;
+}
+
+.road {
+  position: relative;
+  z-index: 2;
+  opacity: 0.5;
+
+  width: 15%; height: 1%;
+  background-color: $textcolor;
+}
+
+.sign {
+  position: absolute;
+  top: -500px;
+
+  flex-direction: column;
+  align-items: center; justify-content: flex-end;
+
+  width: 100%; height: 500px;
+  min-width: 250px;
+
+  opacity: 0;
+}
+
+.sign .frame {
+  display: flex; justify-content: center; align-items: center;
+  width: auto; height: auto;
+  border-radius: 2px;
+  background-color: $textcolor;
+
+  h4 {
+    padding: 0.5rem; margin: 0.5rem;
+    color: $basecolor;
+    border: 1px solid $basecolor;
+  }
+}
+
+.info {
+  position: absolute;
+  left: 55%;
+  flex-direction: column;
+  justify-content: flex-end; align-items: flex-end;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.sign .script {
+  position: absolute;
+  top: 100%; left: 50%;
+  width: 60%;
+  opacity: 0.3;
+  color: $textcolor2;
+  padding-right: 2rem;
+  font-size: 5rem; line-height: 1.2; /*font-weight: 600;*/
+}
+
+.line {width: 4px; height: 250px; border-left: 1px solid $textcolor2; border-right: 1px solid $textcolor2;}
+
+.svg-sign {
+  position: absolute;
+}
+
+
+
+.stop:hover .sign {
+  z-index: 100;
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+.stop:hover .dot {
+  -webkit-transform: scale(2.5);
+  background-color: $textcolor;
+}
+
+.stop-1 {
+  .sign {
+    background: url("../images/texture-1.svg") bottom center no-repeat;
+    .line {height: 200px;}
+  }
+
+  .sign .svg-sign {
+    top: 305px;
+    width: 60px;
+  }
+}
+
+.stop-2 {
+  .sign {
+    background: url("../images/texture-2.svg") bottom center no-repeat;
+  }
+
+  .sign .svg-sign {
+    top: 340px; left: 0;
+    width: 60px;
+    &:first-of-type {top: 270px; }
+    &:last-of-type {top: 410px; }
+  }
+}
+
+.stop-3 {
+  .sign {
+    background: url("../images/texture-3.svg") bottom center no-repeat;
+    .line {height: 220px;}
+  }
+
+  .sign .svg-sign {
+    width: 180px;
+    top: 350px; left: -57px;
+    &:first-of-type {top: 300px; }
+    &:last-of-type {top: 400px; }
+  }
+}
+
+.stop-4 {
+  .sign {
+    background: url("../images/texture-4.svg") bottom center no-repeat;
+    .line {height: 280px;}
+    .frame {
+      h4 {
+        color: $textcolor;
+        border-color: $textcolor;
+      }
+    }
+  }
+}
+
+#ellipse {background-color: rgba($basecolor, 0.9); border-radius: 50%; border: 2px solid rgba($textcolor, 0.5); }
+
+.stop-5 {
+  .sign {
+    background: url("../images/texture-5.svg") bottom center no-repeat;
+    .frame {
+      background-color: $herocolor;
+      h4 {
+        color: $textcolor;
+        border: 3px dashed $textcolor;
+      }
+    }
+  }
+
+  .sign .svg-sign {
+    top: 260px;
+    width: 60px;
+  }
+}
